@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MeetrMain$PlaceholderFragment">
+
+    <TextView android:id="@+id/section_label" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/meeting_name_field"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/section_label"
+        android:layout_toEndOf="@+id/section_label"
+        android:hint="Meeting Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/date_field"
+        android:layout_below="@+id/meeting_name_field"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentEnd="true"
+        android:hint="Date" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_field"
+        android:layout_below="@+id/date_field"
+        android:layout_marginTop="29dp"
+        android:layout_alignEnd="@+id/location_field"
+        android:layout_alignParentStart="true"
+        android:hint="Time" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_field"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/time_field"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Location" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atnd_field"
+        android:layout_below="@+id/location_field"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:layout_alignEnd="@+id/location_field"
+        android:hint="Attendees" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/foreman_field"
+        android:layout_below="@+id/atnd_field"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:hint="Foreman                                                                 " />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/meetingType_field"
+        android:layout_below="@+id/foreman_field"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:hint="Meeting Type                                                                             " />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/meetingType_field"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:hint="Meeting Description" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             Submit             "
+        android:id="@+id/button"
+        android:layout_alignEnd="@+id/foreman_field"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="           Cancel            "
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

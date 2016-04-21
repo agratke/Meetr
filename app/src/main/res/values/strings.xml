@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meetr</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Meetings</string>
+    <string name="title_section3">Training</string>
+    <string name="title_section4">Employees</string>
+    <string name="title_section5">Schedules</string>
+    <string name="title_section6">Help</string>
+    <string name="title_section7">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
